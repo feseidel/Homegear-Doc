@@ -411,6 +411,11 @@ On openSUSE Leap, run::
 
 	zypper install libtool libgnutls-devel libgpg-error-devel sqlite3-devel libgcrypt-devel libxslt-devel
 
+Aditionally you need libmodbus. For openSUSE Leap 42.2, run::
+
+	zypper addrepo https://download.opensuse.org/repositories/home:bmwiedemann:cnc/openSUSE_Leap_42.2/home:bmwiedemann:cnc.repo
+	zypper refresh
+	zypper install libmodbus
 
 Compiling
 ^^^^^^^^^
