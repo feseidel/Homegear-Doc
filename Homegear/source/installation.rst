@@ -411,7 +411,19 @@ On openSUSE Leap, run::
 
 	zypper install libtool libgnutls-devel libgpg-error-devel sqlite3-devel libgcrypt-devel libxslt-devel
 
+You also might like to compile libmodbus from source - thats quite easy to do:
 
+	Create a directory - say /home/modbus
+	cd /home/modbus
+	git clone git://github.com/stephane/libmodbus
+	cd libmodbus
+	./autogen.sh
+	./configure
+	make
+	make install
+
+That's all ...
+	
 Compiling
 ^^^^^^^^^
 
